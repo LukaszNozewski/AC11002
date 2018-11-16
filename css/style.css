@@ -1,3 +1,13 @@
+body{
+  background-color: #595858;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  background-color: #595858;
+}
+
+/* Styling of the NavBar */
 .navbar-nav {
     float:none;
     text-align: right;
@@ -6,3 +16,51 @@
     display: inline-block;
     float:none;
 }
+#navbar-brand{
+  color:white;
+}
+/*----------------------*/
+
+
+/* Home page main image styling */
+#home-image{
+  /* Resize based on browser size*/
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+
+  /*positions the initial image*/
+  position: relative;
+  align-self: center;
+  margin:5px;
+  top: -17px;
+}
+
+/* Styling for the featured projects buttons */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+/* ----------------------------------------- */
+
+/* Featured projects block styling */
+.col-md-12{
+  background-color: #8E8D8D;
+}
+.col-md-12 h1{
+  text-align: center;
+  color: black;
+}
+
+#featured-projects-title{
+  margin: 10px;
+}
+/*-------------------------------- */

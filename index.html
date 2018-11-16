@@ -5,6 +5,7 @@
     <title>AC11002</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- jQuery library -->
@@ -19,14 +20,14 @@
   </head>
   <body>
     <!-- The NavBar -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
           </button>
-          <a class="navbar-brand" href="#">AC11002</a>
+          <a id="navbar-brand" class="navbar-brand" href="#">AC11002</a>
         </div>
 
         <!-- Nav links for toggling -->
@@ -41,23 +42,49 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <!-- centre -->
-    <div class="content">
-      <div class="col-md-3">
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis, orci et posuere vulputate, justo nisi vestibulum enim, sit amet posuere tortor justo et tortor. Ut vitae lectus luctus, varius sem vitae, pretium dolor. Duis est nunc, scelerisque sed est sit amet, finibus vehicula neque. Mauris ligula massa, gravida ut mi nec, lobortis sodales arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt elementum arcu non dignissim. Donec condimentum ligula eros, eget mollis nibh pretium et. Vivamus congue, quam eu fermentum laoreet, libero metus pharetra metus, eget egestas dui justo eu ligula.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis, orci et posuere vulputate, justo nisi vestibulum enim, sit amet posuere tortor justo et tortor. Ut vitae lectus luctus, varius sem vitae, pretium dolor. Duis est nunc, scelerisque sed est sit amet, finibus vehicula neque. Mauris ligula massa, gravida ut mi nec, lobortis sodales arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt elementum arcu non dignissim. Donec condimentum ligula eros, eget mollis nibh pretium et. Vivamus congue, quam eu fermentum laoreet, libero metus pharetra metus, eget egestas dui justo eu ligula.</p>
-      </div>
-      <div class="col-md-3">
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis, orci et posuere vulputate, justo nisi vestibulum enim, sit amet posuere tortor justo et tortor. Ut vitae lectus luctus, varius sem vitae, pretium dolor. Duis est nunc, scelerisque sed est sit amet, finibus vehicula neque. Mauris ligula massa, gravida ut mi nec, lobortis sodales arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt elementum arcu non dignissim. Donec condimentum ligula eros, eget mollis nibh pretium et. Vivamus congue, quam eu fermentum laoreet, libero metus pharetra metus, eget egestas dui justo eu ligula.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis, orci et posuere vulputate, justo nisi vestibulum enim, sit amet posuere tortor justo et tortor. Ut vitae lectus luctus, varius sem vitae, pretium dolor. Duis est nunc, scelerisque sed est sit amet, finibus vehicula neque. Mauris ligula massa, gravida ut mi nec, lobortis sodales arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt elementum arcu non dignissim. Donec condimentum ligula eros, eget mollis nibh pretium et. Vivamus congue, quam eu fermentum laoreet, libero metus pharetra metus, eget egestas dui justo eu ligula.</p>
-      </div>
-      <div class="col-md-3">
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis, orci et posuere vulputate, justo nisi vestibulum enim, sit amet posuere tortor justo et tortor. Ut vitae lectus luctus, varius sem vitae, pretium dolor. Duis est nunc, scelerisque sed est sit amet, finibus vehicula neque. Mauris ligula massa, gravida ut mi nec, lobortis sodales arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt elementum arcu non dignissim. Donec condimentum ligula eros, eget mollis nibh pretium et. Vivamus congue, quam eu fermentum laoreet, libero metus pharetra metus, eget egestas dui justo eu ligula.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis, orci et posuere vulputate, justo nisi vestibulum enim, sit amet posuere tortor justo et tortor. Ut vitae lectus luctus, varius sem vitae, pretium dolor. Duis est nunc, scelerisque sed est sit amet, finibus vehicula neque. Mauris ligula massa, gravida ut mi nec, lobortis sodales arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt elementum arcu non dignissim. Donec condimentum ligula eros, eget mollis nibh pretium et. Vivamus congue, quam eu fermentum laoreet, libero metus pharetra metus, eget egestas dui justo eu ligula.</p>
-      </div>
+    <!-- Home-page Image -->
+    <center><img src="https://picsum.photos/1800/500" id="home-image"></img></center>
+
+    <!-- text body -->
+    <div class="col-md-12">
+      <h1 id="featured-projects-title">Featured-Projects</h1>
+
+        <div class="text-center">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="https://picsum.photos/200/?random" alt="Project-1">
+              <p><strong>Featured Project 1</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et erat neque. Suspendisse condimentum ex vel justo placerat, at feugiat nulla ornare. Praesent nec velit eget felis malesuada ullamcorper. Morbi tincidunt aliquet cursus. Praesent eget pulvinar magna, at dictum sapien. Praesent elementum purus rhoncus dolor sagittis, ornare rutrum arcu lobortis. Nullam fermentum, libero eget maximus maximus, lorem neque eleifend risus, nec pulvinar felis nibh et enim. In velit ipsum, viverra fringilla elit et, dignissim placerat nulla.</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">Find out more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="https://picsum.photos/200/?random" alt="Project-2">
+              <p><strong>Featured Project 2</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et erat neque. Suspendisse condimentum ex vel justo placerat, at feugiat nulla ornare. Praesent nec velit eget felis malesuada ullamcorper. Morbi tincidunt aliquet cursus. Praesent eget pulvinar magna, at dictum sapien. Praesent elementum purus rhoncus dolor sagittis, ornare rutrum arcu lobortis. Nullam fermentum, libero eget maximus maximus, lorem neque eleifend risus, nec pulvinar felis nibh et enim. In velit ipsum, viverra fringilla elit et, dignissim placerat nulla.</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">Find out more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="https://picsum.photos/200/?random" alt="Project-3">
+              <p><strong>Featured Project 3</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et erat neque. Suspendisse condimentum ex vel justo placerat, at feugiat nulla ornare. Praesent nec velit eget felis malesuada ullamcorper. Morbi tincidunt aliquet cursus. Praesent eget pulvinar magna, at dictum sapien. Praesent elementum purus rhoncus dolor sagittis, ornare rutrum arcu lobortis. Nullam fermentum, libero eget maximus maximus, lorem neque eleifend risus, nec pulvinar felis nibh et enim. In velit ipsum, viverra fringilla elit et, dignissim placerat nulla.</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">Find out more</button>
+            </div>
+          </div>
+        </div>
     </div>
+
   </body>
+<footer>
+  <center><h1>Footer</h1></center>
+</footer>
 </html>
