@@ -23,20 +23,36 @@ footer{
 
 
 /* Home page main image styling */
-#home-image{
-  /* Resize based on browser size*/
-  max-width: 100%;
-  height: auto;
-  width: auto\9;
+.home-image-container{
+  font-family: Georgia,Times,Times New Roman,serif;
+  font-size: 40px;
 
-  /*positions the initial image*/
   position: relative;
-  align-self: center;
-  margin:5px;
-  top: -17px;
+  text-align: center;
+  color: black;
 }
+#home-image{
+  margin-bottom: 10px;
+}
+/* Image text styling */
+.middle-top{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.middle-bottom{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,20%);
+}
+/* ----------------------------------------- */
 
-/* Styling for the featured projects buttons */
+/* Styling for the featured projects */
+#featured-projects-title{
+  margin: 10px;
+}
 .btn {
     padding: 10px 20px;
     background-color: #333;
@@ -49,9 +65,6 @@ footer{
     background-color: #fff;
     color: #000;
 }
-/* ----------------------------------------- */
-
-/* Featured projects block styling */
 .col-md-12{
   background-color: #8E8D8D;
 }
@@ -59,8 +72,4 @@ footer{
   text-align: center;
   color: black;
 }
-
-#featured-projects-title{
-  margin: 10px;
-}
-/*-------------------------------- */
+/* ----------------------------------------- */
