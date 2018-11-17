@@ -25,7 +25,7 @@ footer{
 /* Home page main image styling */
 .home-image-container{
   font-family: Georgia,Times,Times New Roman,serif;
-  font-size: 40px;
+  font-size: 3vw;
 
   position: relative;
   text-align: center;
@@ -73,3 +73,18 @@ footer{
   color: black;
 }
 /* ----------------------------------------- */
+
+/* Footer Styling */
+#footer-text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:black;
+  font-size: 20px;
+
+}
+#footer-icons{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:black;
+  text-align: right;
+}
