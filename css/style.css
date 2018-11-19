@@ -4,7 +4,7 @@ body{
 }
 
 footer{
-  background-color: #595858;
+  background-color: red;
 }
 
 /* Styling of the NavBar */
@@ -20,59 +20,6 @@ footer{
   color:white;
 }
 /*----------------------*/
-
-
-/* Home page main image styling */
-.home-image-container{
-  font-family: Georgia,Times,Times New Roman,serif;
-  font-size: 3vw;
-
-  position: relative;
-  text-align: center;
-  color: black;
-}
-#home-image{
-  margin-bottom: 10px;
-}
-/* Image text styling */
-.middle-top{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.middle-bottom{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,20%);
-}
-/* ----------------------------------------- */
-
-/* Styling for the featured projects */
-#featured-projects-title{
-  margin: 10px;
-}
-.btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
-    border-radius: 0;
-    transition: .2s;
-}
-.btn:hover, .btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
-}
-.col-md-12{
-  background-color: #8E8D8D;
-}
-.col-md-12 h1{
-  text-align: center;
-  color: black;
-}
-/* ----------------------------------------- */
 
 /* Footer Styling */
 #footer-text{
