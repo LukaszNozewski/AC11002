@@ -3,10 +3,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-footer{
-  background-color: red;
-}
-
 /* Styling of the NavBar */
 .navbar-nav {
     float:none;
@@ -20,19 +16,3 @@ footer{
   color:white;
 }
 /*----------------------*/
-
-/* Footer Styling */
-#footer-text{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color:black;
-  font-size: 20px;
-
-}
-#footer-icons{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color:black;
-  text-align: right;
-}
-/* ----------------------------------------- */
