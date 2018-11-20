@@ -1,0 +1,13 @@
+/* CV container styling */
+.container{
+  background-color: white;
+}
+/* ----------------------------------------- */
+
+/*CV content styling */
+#CV-Image{
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+/* ----------------------------------------- */
