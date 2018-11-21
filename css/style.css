@@ -16,3 +16,25 @@ body{
   color:white;
 }
 /*----------------------*/
+
+/*Button styling */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+/* ------------------------*/
+
+/*Footer styling */
+.footer{
+    background-color: #1e1e1e;
+    color: white;
+}
+/*---------------------------*/

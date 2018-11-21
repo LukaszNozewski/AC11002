@@ -1,0 +1,26 @@
+/* Main container which holds all content styling */
+.container{
+  background-color: white;
+}
+/* ---------------------- */
+
+/* Contact image styling */
+#contact-image{
+  width:95%;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+/* ---------------------- */
+
+/* Page headings styling */
+h4{
+  font-weight: bold;
+}
+/* ---------------------- */
+
+/* Adds extra white space at the bottom of the page for extra spacing with the footer */
+#linkedin{
+  padding-bottom: 20px;
+}
+/* ---------------------- */
